@@ -317,14 +317,14 @@
   <div class="wrap">
     <div class="eyebrow">Real Estate Operations &amp; Automation</div>
     <h1>I turn manual busywork into <span>systems that run themselves.</span></h1>
-    <p class="lede">20+ live automations built for a real estate investment operation — lead capture, CRM administration, contract processing, and team notifications — using Zapier, Google Apps Script, and Resimpli.</p>
+    <p class="lede">23+ live automations built for a real estate investment operation — lead capture, CRM administration, contract processing, and team notifications — using Zapier, Google Apps Script, and Resimpli.</p>
     <div class="hero-actions">
       <a href="#library" class="btn btn-primary">See the automation library</a>
       <a href="#contact" class="btn btn-ghost">Work with me</a>
     </div>
 
     <div class="hero-stats">
-      <div class="stat"><div class="num">20+</div><div class="label">Automations shipped</div></div>
+      <div class="stat"><div class="num">23+</div><div class="label">Automations shipped</div></div>
       <div class="stat"><div class="num">15–20 min → &lt;1 min</div><div class="label">Contract onboarding time</div></div>
       <div class="stat"><div class="num">1</div><div class="label">Full CRM migration led</div></div>
       <div class="stat"><div class="num">6+</div><div class="label">Platforms connected</div></div>
@@ -377,7 +377,7 @@
   <div class="wrap">
     <div class="section-head">
       <div class="section-tag">Automation Library</div>
-      <h2>20 automations, live in production</h2>
+      <h2>23 automations, live in production</h2>
       <p>Pulled directly from the build log — every automation I maintain, what triggers it, and whether it's currently active.</p>
     </div>
 
@@ -388,6 +388,7 @@
       <button class="filter-btn" data-filter="Contract & Docs">Contract &amp; Docs</button>
       <button class="filter-btn" data-filter="Security">Security</button>
       <button class="filter-btn" data-filter="Scheduling">Scheduling</button>
+      <button class="filter-btn" data-filter="Internal Ops">Internal Ops</button>
     </div>
 
     <div class="lib-table">
@@ -472,6 +473,9 @@ const automations = [
   {id:"A018", name:"New Contract Folder Automation", sub:"Resimpli → Drive → Sheets → Slack", cat:"Contract & Docs", tools:"Apps Script", status:"active"},
   {id:"A019", name:"Appointment Property Folder Automation", sub:"Resimpli → Drive → Slack", cat:"Scheduling", tools:"Apps Script", status:"active"},
   {id:"A020", name:"Resimpli → Slack AI Notification", sub:"Gmail → cleanup → Slack", cat:"Communication", tools:"Apps Script", status:"active"},
+  {id:"A021", name:"Under Contract – Template 3 Dispo Marketing", sub:"Extract data → fill template → AI drafts marketing email → trackers updated", cat:"Contract & Docs", tools:"Apps Script, AI, Resimpli", status:"active"},
+  {id:"A022", name:"Buyer Showing to Slack", sub:"Resimpli appointment → Slack notification", cat:"Scheduling", tools:"Resimpli, Slack", status:"active"},
+  {id:"A023", name:"Auto-Populate Issue Tracker", sub:"Vendor ticket/conversation → tracker update (manual push)", cat:"Internal Ops", tools:"Apps Script", status:"active"},
 ];
 
 const rowsEl = document.getElementById('lib-rows');
